@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar ul li a:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+#content {
+  padding-top: 60px; /* Adjust this based on your navbar height */
+}
+
+section {
+  padding: 60px 20px;
+  height: auto;
+  min-height: 100vh;
+}
+
+section:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+section:nth-child(even) {
+  background-color: #e2e2e2;
+}
+
+#home {
+  background: url('rest.jpg.jpg') no-repeat center center;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#home h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#home p {
+  margin: 20px 0;
+  font-size: 1.5em;
+  color: white;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#menu li {
+  margin: 20px;
+  text-align: center;
+}
+
+#menu img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#menu h2 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: black;
+}
+
+#about {
+  position: relative;
+}
+
+#about h1, #about p {
+  margin-left: 10px;
+}
+
+#about .contact-info {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  text-align: right;
+}
+
+#about .contact-info p {
+  margin: 0;
+}
+
+#contact .contact-details {
+  margin-top: 20px;
+}
+
+#contact .contact-details p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+#about {
+  position: relative;
+  background: url('about\ .png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 60px 20px;
+}
+
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('c.png') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 60px 20px;
+}
+
+#contact .contact-details {
+  margin-top: 20px;
+}
+
+#contact .contact-details p {
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
